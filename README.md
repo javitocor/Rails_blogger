@@ -1,24 +1,14 @@
-# README
+# Blogger
+A blog built up with ruby on rails following the indications in http://tutorials.jumpstartlab.com/projects/blogger.html
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# What it does
+You can add articles and comment them in this site
 
-Things you may want to cover:
+# Built
+Ruby on rails
 
-* Ruby version
+# Contributions
+Clone the repo, create a branch and create a pull request
 
-* System dependencies
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
