@@ -5,7 +5,7 @@
     <li>
       <%= link_to tag.name, tag_path(tag), 
       class: 'tag_name', id: "tag_#{tag.name}" %>
-      <%= link_to "delete", tag_path(tag), method: :delete, data: {confirm: "Really delete the article?"} %>
+      <%= link_to "delete", tag_path(@tag), method: :delete, data: {confirm: "Really delete the tag?"} %>
     </li>
   <% end %>
 </ul>
