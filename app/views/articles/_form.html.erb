@@ -16,15 +16,16 @@
     <%= f.label :tag_list %><br />
     <%= f.text_field :tag_list %>
   </p>
-  <p>
-    <%= f.label :image, "Attach an Image" %><br />
-    <%= f.file_field :image %>
-  <p>
   <% if @article.image.exists? %>
       <%= image_tag @article.image.url(:medium) %><br/>
-  <% end %>
-    <%= f.label :image, "Attach a New Image" %><br />
-    <%= f.file_field :image %>
+      <%= f.label :image, "Attach a New Image" %><br />
+      <%= f.file_field :image %>
+    <% else %>
+    <p>
+      <%= f.label :image, "Attach an Image" %><br />
+      <%= f.file_field :image %>
+    <p>
+  <% end %>    
   </p>
   </p>
   <p>
