@@ -7,23 +7,53 @@ You can add articles and comment them in this site
 # Built
 Ruby on rails
 
-# Getting Started
-To get a local copy up and running follow these simple example steps.
+## Getting Started
 
-Clone the project unto your local machine
-Run the server with 'rails server'
-Open your browser and type 'localhost:3000'
+To get a local copy up, clone it and running follow these simple example steps.
 
-# Prerequisites
-- Get the latest version of Ruby
+### Prerequisites
+
+- Ruby
+- Rails
+
+### Setup
+
+Install gems with:
+
+``` bash
+bundle install
+```
+
+Setup database with:
+
+``` bash
+   rails db:migrate
+```
+
+### Usage
+
+Start server with:
+
+``` bash
+    rails server
+```
+
+Open `http://localhost:3000/` in your browser.
+
+### Run tests
+
+``` bash
+    rpsec
+```
+
 
 # Author
 
 👤 Javier Oriol Correas Sanchez Cuesta
 
-- Github: [@githubhandle](https://github.com/javitocor)
-- Twitter: [@twitterhandle](https://twitter.com/JavierCorreas4)
-- Linkedin: [linkedin](https://www.linkedin.com/in/javier-correas-sanchez-cuesta-15289482/)
+- Github: [@javitocor](https://github.com/javitocor)
+- Twitter: [@JavierCorreas4](https://twitter.com/JavierCorreas4)
+- Linkedin: [Javier Oriol Correas Sanchez Cuesta](https://www.linkedin.com/in/javier-correas-sanchez-cuesta-15289482/)
 
 # 🤝 Contributing
 Contributions, issues and feature requests are welcome! Start by:
