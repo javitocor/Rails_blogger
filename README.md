@@ -1,6 +1,8 @@
 # Blogger
 A blog built up with ruby on rails following the indications in http://tutorials.jumpstartlab.com/projects/blogger.html
 
+![screenshot](/app/assets/images/screenshot.png)
+
 # What it does
 You can add articles and comment them in this site
 
